@@ -8,7 +8,7 @@
 							<a href = "#" data-toggle = "modal" data-target = "#modalDatenschutz">Datenschutz</a>
 						</div>
 						<div class = "col-12 col-md-6 mx-auto texthellgrau text-center align-self-center order-first">
-							Template made with <font color = "#f57c7c"><i class = "fa fa-heart"></i></font> by Timo Schneider
+						<a href="https://github.com/XSmeagolX/Site-template">Template</a> made with <font color = "#f57c7c"><i class = "fa fa-heart"></i></font> by Timo Schneider
 						</div>
 					</div>
 				</div>
