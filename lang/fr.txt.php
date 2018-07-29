@@ -3,7 +3,7 @@
 	$text_header_small = "Template pour votre";
 	$text_header_big = "Homepage";
 	$text_welcome = "Bienvenue";
-	$text_usage = "<strong> Conditions d'utilisation</ strong> Vous pouvez utiliser et modifier ce modèle comme vous le souhaitez. <br>
+	$text_usage = "<strong> Conditions d'utilisation!</strong> Vous pouvez utiliser et modifier ce modèle comme vous le souhaitez. <br>
 	S'il vous plaît 'star' sur github.";
 	$text_card_main = "Rubrique";
 	$text_card_title = "Titre";
