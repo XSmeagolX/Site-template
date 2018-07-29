@@ -1,0 +1,156 @@
+/* Hier kann man seine eigene Farbauswahl erstellen */
+/*==================================================*/
+
+/* Hintergrundfarben */
+
+.dunkelgrau {
+	background-color: rgba(85, 82, 82, 0.376);
+}
+
+.dunkelblau {
+	background-color: rgb(134, 206, 224);
+}
+
+.dunkelrot {
+	background-color: rgb(224, 169, 147);
+}
+
+.dunkelgelb {
+	background-color: rgb(219, 203, 157);
+}
+
+.dunkelgruen {
+	background-color: rgb(139, 221, 181);
+}
+
+.grau {
+	background-color: rgba(65, 63, 63, 0.1);
+}
+
+.blau {
+	background-color: rgba(124, 230, 254, 0.3);
+}
+
+.rot {
+	background-color: rgba(255, 142, 94, 0.3);
+}
+
+.gelb {
+	background-color: rgba(255, 224, 140, 0.3);
+}
+
+.gruen {
+	background-color: rgba(142, 243, 196, 0.3);
+}
+
+
+/* Schriftfarben */
+
+.textprimaer {
+	color: rgba(68, 68, 68, 0.877) !important;
+}
+
+.textgrau {
+	color: rgb(65, 63, 63);
+}
+
+.texthellgrau {
+	color: rgb(146, 143, 143);
+}
+
+.textblau {
+	color: rgb(10, 98, 128);
+}
+
+.textrot {
+	color: rgb(107, 16, 16);
+}
+
+.textgelb {
+	color: rgb(121, 105, 19);
+}
+
+.textgruen {
+	color: rgb(16, 109, 81);
+}
+
+.text-muted {
+	color: rgba(136, 133, 133, 0.692) !important;
+}
+
+.texthellblau {
+	color: rgb(48, 145, 178);
+}
+
+.texthellgruen {
+	color: rgb(66, 160, 132);
+}
+
+.texthellgelb {
+	color: rgb(187, 153, 47);
+}
+
+.texthellrot {
+	color: rgb(179, 60, 18);
+}
+
+/* Farben von Alerts */
+
+.info-text {
+	background-color: rgb(134, 206, 224);
+	color: rgb(10, 98, 128);
+}
+
+.danger-text {
+	background-color: rgb(224, 169, 147);
+	color: rgb(107, 16, 16);
+}
+
+.success-text {
+	background-color: rgb(139, 221, 181);
+	color: rgb(16, 109, 81);
+}
+
+.warning-text {
+	background-color: rgb(219, 203, 157);
+	color: rgb(121, 105, 19);
+}
+
+.alert-info {
+	background-color: rgb(134, 206, 224);
+	color: rgb(10, 98, 128);
+}
+
+.alert-success {
+	background-color: rgb(139, 221, 181);
+	color: rgb(16, 109, 81);
+}
+
+.alert-warning {
+	background-color: rgb(219, 203, 157);
+	color: rgb(121, 105, 19);
+}
+
+.alert-danger {
+	background-color: rgb(224, 169, 147);
+	color: rgb(107, 16, 16);
+}
+
+/* Navbar */
+
+.navbar-site {
+	background-color: rgb(252, 250, 249);
+	color: rgb(77, 76, 76);
+}
+
+.navbar-site .nav-link:hover {
+color: rgb(0, 0, 0);
+}
+
+/* Nav-Tabs */
+
+.nav-tabs-site .nav-item.show .nav-link, .nav-tabs-site .nav-link.active {
+	color: rgb(77, 76, 76);
+	background-color: rgb(252, 250, 249);
+    border-color: rgb(77, 76, 76) rgb(77, 76, 76)rgb(252, 250, 249) rgb(77, 76, 76);
+}

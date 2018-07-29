@@ -1,0 +1,158 @@
+/* Navigation Bar 
+*****************/
+
+.navbar {
+	border-bottom: 1px solid rgb(167, 167, 167) !important;
+}
+
+.nav-space {
+	margin-bottom: 15px;
+}
+
+.navbar a {
+	font-size: 10pt;
+	color: rgba(73, 73, 73, 0.815);
+}
+
+
+/* Header 
+*****************/
+
+.jumbotron {
+	margin-top: 57px;
+	margin-bottom: 0rem;
+	background-color: rgba(85, 82, 82, 0.376);
+	color: rgb(255, 255, 255);
+/*	-webkit-filter: grayscale(1);
+	filter: grayscale(1);
+*/
+}
+
+.force_min_height {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+.flex1 {
+	flex: 1;
+}
+
+
+/* Content
+*****************/
+
+body {
+	background-color: rgb(252, 250, 249) !important;
+	color: rgba(77, 76, 76, 0.966);
+	font-size: 14px;
+	font-family: "Montserrat","Helvetica Neue",Arial,sans-serif;
+	line-height: 1.4285;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+}
+
+.navbar a {
+	color: rgba(44, 43, 43, 0.75);
+	text-decoration: none;
+	-webkit-transition: all 150ms linear;
+	-moz-transition: all 150ms linear;
+	-o-transition: all 150ms linear;
+	-ms-transition: all 150ms linear;
+	transition: all 150ms linear;
+}
+
+a {
+	color: rgb(44, 43, 43);
+	text-decoration: none;
+	-webkit-transition: all 150ms linear;
+	-moz-transition: all 150ms linear;
+	-o-transition: all 150ms linear;
+	-ms-transition: all 150ms linear;
+	transition: all 150ms linear;
+}
+
+a:hover {
+	color: rgb(44, 43, 43);
+	text-decoration: none;
+}
+
+a:focus {
+	color: rgb(36, 35, 35);
+	text-decoration: none;
+}
+
+
+/* Tables 
+*****************/
+
+table, th, tr, td {
+	border-spacing: 0px;
+	border-collapse: none !important;
+	text-align: right;
+}
+
+
+/* Footer 
+*****************/
+
+.footer {
+	padding: 20px;
+	font-size: 10pt;
+}
+
+.footer a {
+	font-size: 10pt;
+	color: rgb(170, 166, 166);
+}
+
+.footer a:hover {
+	font-size: 10pt;
+	color: rgb(255, 255, 255);
+}
+
+
+/* Modal 
+*****************/
+
+.modal-dialog {
+	max-width: 50%;
+	margin: 30px auto;
+}
+
+
+/* Cards
+*****************/
+
+ .col-sm-6, .col-sm-4 {
+	margin-bottom: 15px;
+ }
+
+ .card{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 4px;
+    color: #444444;
+}
+
+.card .cover{
+    height: 85px;
+    overflow: hidden;
+    border-radius: 4px 4px 0 0;
+}
+.card .cover img{
+    width: 100%;
+}
+
+.card .user{
+	border-radius: 50%;
+	border: 1px solid rgb(4, 73, 119);
+	display: block;
+	width: 100px;
+    margin: -55px auto 0;
+    overflow: hidden;
+}
+.card .user img{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 4px solid #FFFFFF;
+    width: 100%;
+}
