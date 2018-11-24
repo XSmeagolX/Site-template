@@ -1,5 +1,6 @@
 <?php
 	// Deutsche Version //
+	$text_hp_title = "Homepage";
 	$text_header_small = "Template für deine";
 	$text_header_big = "Homepage";
 	$text_welcome = "Herzlich Willkommen";
