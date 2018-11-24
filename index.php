@@ -2,10 +2,10 @@
     if (isset($_GET["lang"])) $lang = $_GET["lang"];
     else $lang = strtolower(substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2));
 
-    if (isset($_GET["lang"])) $lang = $_GET["lang"];
-    elseif (!$_SERVER['HTTP_ACCEPT_LANGUAGE']) {
-		$lang = "";
-	} else $lang = strtolower(substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2));
+    if (isset($_GET["lang"])) {$lang = $_GET["lang"];}
+    elseif (isset($_SERVER['HTTP_ACCEPT_LANGUAGE'])) {
+		$lang = strtolower(substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2));
+	} else $lang = "";
 
 	include("./settings/settings.php");
     include("./header.php"); 
