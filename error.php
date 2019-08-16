@@ -2,12 +2,13 @@
 
 include "./settings/settings.php";
 
-
-if (isset($_GET["lang"])) $lang = $_GET["lang"];
-else $lang = strtolower(substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2));
+if (isset($_GET["lang"])) {$lang = $_GET["lang"];}
+elseif (isset($_SERVER['HTTP_ACCEPT_LANGUAGE'])) {
+	$lang = strtolower(substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2));
+} else $lang = "de";
 
 if (file_exists("./lang/" . $lang . ".txt.php")) include "./lang/" . $lang . ".txt.php";
-else include "./lang/en.txt.php";
+else include "./lang/de.txt.php";
 
 if (!isset($_GET['error'])) { $errorcode = ""; } else { $errorcode = $_GET['error'];}
 if (!isset($_SERVER['HTTP_REFERER'])) { $HTTP_REFERER = ""; } else { $HTTP_REFERER = $_SERVER['HTTP_REFERER'];}
